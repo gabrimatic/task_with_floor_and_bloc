@@ -1,0 +1,22 @@
+# By Hossein Yousefpour (gabrimatic)
+# https://gabrimatic.info
+
+name: task_repository
+description: The tasks repository.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  floor: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: ^1.2.0
+  build_runner: ^2.1.5
+  flutter_lints: ^1.0.4
